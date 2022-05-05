@@ -1,56 +1,48 @@
-# Project Name
+# Papiro Document Intelligence
 
-(short, 1-3 sentenced, description of the project)
+As part of Microsoft /BUILD 2022 the AI Platform Group showed a conference intelligence application that used a number of intelligence APIs to showcase what might be done to support conferences with AI. This is the project that was shown!
 
 ## Features
 
-This project framework provides the following features:
+This sample provides the following features:
 
-* Feature 1
-* Feature 2
-* ...
+* Quick Check-in using ID/Vaccination Card
+* FAQ Multilingual Document Translation
+* TLDR Policy Document Summarization
+* Audio Session Feedback to Sentiment
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+A working operating system with node, the `az` CLI, and PowerShell.
 
 ### Quickstart
-(Add steps to get up and running quickly)
 
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
+There are a few steps for setting this up:
 
+1. Clone this repo
+2. Azure Infrastructure setup:
+```
+./provision.ps1 -name <YOUR_APP_NAME> -location westus2
+```
+3. Azure Web App publish:
+```
+./publish.ps1 -name <YOUR_APP_NAME>
+```
+4. [**Optional**] Local Run:
+```
+ss
+```
 
-## Demo
+### Text Generation
 
-A demo app is included to show how to use the project.
+The text generation API is created using another sample shown at Microsoft /BUILD 2022. More instructions can be found there!
 
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
 
 ## Resources
 
-(Any additional resources or related projects)
+More to come...
 
 - Link to supporting information
 - Link to similar sample

@@ -1,0 +1,7 @@
+src/.env
+src/dist
+.azure/
+__*__.json
+__*__/
+*.zip
+package/

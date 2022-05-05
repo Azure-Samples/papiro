@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "AI Breakout Demo"
+  },
+  "shared": {
+    "loading": "Loading..."
+  },
+  "header": {
+    "recognizer": "Quick Check-In",
+    "translation": "FAQs (Multilingual)",
+    "summarization": "TLDR Policies",
+    "feedback": "Session Feedback",
+    "generation": "Homer Marketing",
+    "login": "Login",
+    "logout": "Logout",
+    "github": "Github Name",
+    "sign_in": "Sign In"
+  },
+  "home": {
+    "please_login": "Please login in the top right corner with your github account to start the demo."
+  },
+  "recognizer": {
+    "title": "To start we need a few pictures",
+    "action": "Take picture",
+    "pictures": {
+      "vaccine": "Vaccine picture",
+      "badge": "Photo ID picture"
+    },
+    "results": {
+      "vaccine": "Vaccine Card",
+      "badge": "ID Document"
+    },
+    "error": "The image was not recognized, please try again from closer.",
+    "form": {
+      "countryRegion": "Country",
+      "dateOfBirth": "Date of Birth",
+      "BirthDate": "Date of Birth",
+      "dateOfExpiration": "Date of Expiration",
+      "documentNumber": "Document Number",
+      "PatientNumber": "Patient Number",
+      "FirstName": "First Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "LastName": "Last Name",
+      "nationality": "Nationality",
+      "sex": "Gender",
+      "address": "Address",
+      "endorsements": "Endorsements",
+      "region": "Region",
+      "restrictions": "Restrictions",
+      "vehicleClassifications": "Vehicle",
+      "HealthAgency": "Agency",
+      "vaccine0Date": "1st Vaccine Date",
+      "vaccine0Manufacturer": "1st Vaccine Company",
+      "vaccine1Date": "2nd Vaccine Date",
+      "vaccine1Manufacturer": "2nd Vaccine Company",
+      "vaccine2Date": "3rd Vaccine Date",
+      "vaccine2Manufacturer": "3rd Vaccine Company"
+    }
+  },
+  "translation": {
+    "drag": "Drag a document to translate",
+    "download": "Download",
+    "add-translation": "Add translation",
+    "change-document": "Change document",
+    "select-language": "Select language",
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "de": "German",
+      "pt": "Portuguese",
+      "es": "Spanish",
+      "ja": "Japanese",
+      "cs": "Czech",
+      "nl": "Dutch",
+      "it": "Italian",
+      "pl": "Polish"
+    }
+  },
+  "summarization": {
+    "drag": "Drag a document to summarize",
+    "reset": "Change document"
+  },
+  "feedback": {
+    "title": "To end please send us your feedback ",
+    "no-text": "We cannot understand your feedback, please try again.",
+    "positive": "Nice",
+    "neutral": "Regular",
+    "negative": "Needs to improve"
+  },
+  "generation": {
+    "title": "Create Marketing Copy in the style of Homer (not Simpsons)",
+    "generate": "Generate",
+    "working": "Working...",
+    "completion": "Completion marketing text..."
+  }
+}
