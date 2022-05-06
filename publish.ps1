@@ -18,5 +18,5 @@ Get-ChildItem -exclude .env | Compress-Archive -CompressionLevel Optimal -Destin
 
 Set-Location -Path ./..
 
-# deploy
+# - deploy
 Publish-AzWebApp -ResourceGroupName $($name+"rg") -Name $($name+"app") -ArchivePath ./package/app-zipdeploy.zip -Verbose

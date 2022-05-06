@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "yarn && next start",
+    "start": "next start",
     "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
     "lint": "yarn lint:scripts && yarn lint:styles && yarn lint:editor && yarn format",
     "lint:scripts": "next lint --fix",

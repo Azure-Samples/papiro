@@ -70,7 +70,7 @@ resource appService 'Microsoft.Web/sites@2021-03-01' = {
     name: 'appsettings'
     kind: 'string'
     properties: {
-      'SECRET_COOKIE_PASSWORD': '${toUpper(uniqueString(resourceGroup().id))}-${toUpper(uniqueString(appServiceName))}'
+      'SECRET_COOKIE_PASSWORD': '${toUpper(uniqueString(resourceGroup().id))}${toUpper(uniqueString(appServiceName))}${toUpper(uniqueString(appServicePlan.id))}'
       'COSMOS_DB_URI': cosmosDBURI
       'COSMOS_DB_KEY': cosmosDBKey
       'COSMOS_DB_NAME': cosmosDBName
