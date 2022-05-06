@@ -37,7 +37,7 @@ ss
 
 ### Text Generation
 
-The text generation API is created using another sample shown at Microsoft /BUILD 2022. More instructions can be found there!
+The text generation API is created using another sample shown at Microsoft /BUILD 2022. More instructions can be found [there](https://github.com/Azure-Samples/locutus)!
 
 
 ## Resources
