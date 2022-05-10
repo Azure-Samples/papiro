@@ -30,14 +30,18 @@ There are a few steps for setting this up:
 ```
 ./publish.ps1 -name <YOUR_APP_NAME>
 ```
-4. [**Optional**] Local Run:
+4. [**Optional**] Local Run (in progress):
 ```
 ss
 ```
 
 ### Text Generation
 
-The text generation API is created using another sample shown at Microsoft /BUILD 2022. More instructions can be found [there](https://github.com/Azure-Samples/locutus)!
+The text generation API is created using another sample 
+shown at Microsoft /BUILD 2022. If you're interested in
+setting this up, head on over to the
+[Managed AzureML Inference](https://github.com/Azure-Samples/locutus/wiki/Managed-Inference)
+instructions.
 
 
 ## Resources
