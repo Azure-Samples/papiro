@@ -1,0 +1,11 @@
+{
+	"analyzers": {
+		"core": {
+			"rules": {
+				"no-hardcoded-location": {
+					"level": "warning"
+				}
+			}
+		}
+	}
+}
