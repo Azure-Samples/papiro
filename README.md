@@ -7,12 +7,11 @@
 - [Papiro Document Intelligence](#papiro-document-intelligence)
   - [Overview](#overview)
   - [Features](#features)
-  - [Tools & Services Used](#tools--services-used)
+  - [Tools & Services Used](#tools-services-used)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Quickstart](#quickstart)
     - [Text Generation](#text-generation)
-  - [Resources](#resources)
 
 <!-- /code_chunk_output -->
 
@@ -82,62 +81,6 @@ npm i -g yarn
 ./publish.ps1 -name <YOUR_APP_NAME>
 ```
 
-5. [**Optional**] Local Run (in progress):
-
-```
-ss
-```
-
-6. For Web App setup, please refer to [/src/README](/src/README.md)
-
-### Text Generation
-
-The text generation API is created using another sample
-shown at Microsoft /BUILD 2022. If you're interested in
-setting this up, head on over to the
-[Managed AzureML Inference](https://github.com/Azure-Samples/locutus/wiki/Managed-Inference)
-instructions.
-
-## Resources
-
-More to come...
-
-- Link to supporting information
-- Link to similar sample
-- ...
-
-
-
-## Getting Started
-
-### Prerequisites
-
-A working operating system with [Node](https://nodejs.org/en/), the [Azure Command-Line Interface(`az` CLI)](https://docs.microsoft.com/cli/azure/?WT.mc_id=javascript-63868-ayyonet), and [PowerShell](https://docs.microsoft.com/powershell/?WT.mc_id=javascript-63868-ayyonet) or [Visual Studio Code](https://code.visualstudio.com/) and it's [Powershell extention](https://code.visualstudio.com/docs/languages/powershell?WT.mc_id=javascript-63868-ayyonet)
-
-### Quickstart
-
-There are a few steps for setting this up:
-
-1. Clone this repo
-2. Azure Infrastructure setup:
-
-```
-./provision.ps1 -name <YOUR_APP_NAME> -location westus2
-```
-*Note: Please make sure <YOUR_APP_NAME> doesn't exceed 13 characters.*
-
-3. Azure Web App publish:
-
-```
-./publish.ps1 -name <YOUR_APP_NAME>
-```
-
-4. [**Optional**] Local Run (in progress):
-
-```
-ss
-```
-
 5. For Web App setup, please refer to [/src/README](/src/README.md)
 
 ### Text Generation
@@ -148,10 +91,3 @@ setting this up, head on over to the
 [Managed AzureML Inference](https://github.com/Azure-Samples/locutus/wiki/Managed-Inference)
 instructions.
 
-## Resources
-
-More to come...
-
-- Link to supporting information
-- Link to similar sample
-- ...
