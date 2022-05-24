@@ -18,5 +18,8 @@ Get-ChildItem -exclude .env | Compress-Archive -CompressionLevel Optimal -Destin
 
 Set-Location -Path ./..
 
+# prompt for Azure account login
+Connect-AzAccount
+
 # - deploy
 Publish-AzWebApp -ResourceGroupName $($name+"rg") -Name $($name+"app") -ArchivePath $pwd/package/app-zipdeploy.zip -Verbose
