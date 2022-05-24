@@ -91,3 +91,9 @@ setting this up, head on over to the
 [Managed AzureML Inference](https://github.com/Azure-Samples/locutus/wiki/Managed-Inference)
 instructions.
 
+## FAQ
+### Getting Responsible AI error when setup the Azure infrastructure
+Users who haven't created Face, Computer Vision, and Language service Azure resources will get the following error when running `provision.ps1`. Please go to the [Azure Portal](https://portal.azure.com) and create a Face, Computer Vision, or Language service to review and acknowledge the terms and conditions. See more details [here](https://go.microsoft.com/fwlink/?linkid=2164190).
+```
+This subscription cannot create TextAnalytics until you agree to Responsible AI terms for this resource. You can agree to Responsible AI terms by creating a resource through the Azure Portal then trying again. For more detail go to https://go.microsoft.com/fwlink/?linkid=2164190
+```
