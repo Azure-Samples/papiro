@@ -66,25 +66,29 @@ A working operating system with [Node](https://nodejs.org/en/), the [Azure Comma
 There are a few steps for setting this up:
 
 1. Clone this repo
-2. Azure Infrastructure setup:
+2. Install yarn globally
+```bash
+npm i -g yarn
+```
+3. Azure Infrastructure setup:
 
 ```
-./provision.ps1 -name <YOUR_APP_NAME> -location westus2
+./provision.ps1 -name <YOUR_APP_NAME> -location westus
 ```
 
-3. Azure Web App publish:
+4. Azure Web App publish:
 
 ```
 ./publish.ps1 -name <YOUR_APP_NAME>
 ```
 
-4. [**Optional**] Local Run (in progress):
+5. [**Optional**] Local Run (in progress):
 
 ```
 ss
 ```
 
-5. For Web App setup, please refer to [/src/README](/src/README.md)
+6. For Web App setup, please refer to [/src/README](/src/README.md)
 
 ### Text Generation
 
