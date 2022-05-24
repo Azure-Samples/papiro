@@ -120,6 +120,7 @@ There are a few steps for setting this up:
 ```
 ./provision.ps1 -name <YOUR_APP_NAME> -location westus2
 ```
+*Note: Please make sure <YOUR_APP_NAME> doesn't exceed 13 characters.*
 
 3. Azure Web App publish:
 
