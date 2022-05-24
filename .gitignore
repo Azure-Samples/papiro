@@ -1,7 +1,42 @@
-src/.env
-src/dist
 .azure/
 __*__.json
 __*__/
-*.zip
-package/
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+src/coverage
+
+# next.js
+src/.next/
+/out/
+
+# production
+/build
+src/dist
+
+# misc
+.DS_Store
+*.pem
+.vscode/settings.json
+
+# debug
+src/npm-debug.log*
+src/yarn-debug.log*
+src/yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+src/.env*.local
+src/.env
+src/node_modules
+
+# vercel
+src/.vercel
+
+# typescript
+*.tsbuildinfo

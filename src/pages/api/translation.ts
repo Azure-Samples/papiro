@@ -30,6 +30,10 @@ const translatorEndpoint = process.env.TRANSLATION_SERVICE_NAME || '';
 const storageAccountUrl = `https://${storageAccount}.blob.core.windows.net`;
 const translatorDocumentEndpoint = `${translatorEndpoint}translator/text/batch/v1.0`;
 
+//const SOURCE_CONTAINER_NAME = 'source';
+const POLLING_TIME = 1000;
+
+//Client to shared storage account
 const certificates = new StorageSharedKeyCredential(storageAccount, storageAccountKey);
 
 async function parseFile(req: NextApiRequest): Promise<File> {
