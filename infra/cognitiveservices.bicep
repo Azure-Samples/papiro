@@ -12,7 +12,7 @@ param cognitivetier string = 'F'
 
 resource cognitiveServicesTranslation 'Microsoft.CognitiveServices/accounts@2022-03-01' = {
   name: '${name}translation${uniqueSuffix}'
-  location: location
+  location: 'westus2'
   kind: 'TextTranslation'
   sku: {
     name: cognitivetier == 'F' ? 'F0' : 'S1'
