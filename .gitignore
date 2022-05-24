@@ -1,7 +1,8 @@
 .azure/
 __*__.json
 __*__/
-
+*.zip
+package/
 
 # dependencies
 /node_modules
