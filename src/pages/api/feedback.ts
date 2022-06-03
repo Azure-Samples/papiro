@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { AzureKeyCredential, TextAnalyticsClient } from '@azure/ai-text-analytics';
 import { RestError } from '@azure/core-http';
 import { withIronSessionApiRoute } from 'iron-session/next';

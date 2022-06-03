@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { BlobServiceClient, StorageSharedKeyCredential } from '@azure/storage-blob';
 
 const storageAccountKey = process.env.STORAGE_ACCOUNT_KEY || '';

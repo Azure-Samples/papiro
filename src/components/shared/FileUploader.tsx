@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { FileUploader as ReactFileUploader } from 'react-drag-drop-files';
 import { Loading } from '~/components';
 

@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { withIronSessionApiRoute } from 'iron-session/next';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { Octokit } from 'octokit';

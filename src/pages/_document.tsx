@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {

@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import Router from 'next/router';
 import { useEffect } from 'react';
 import useSWR from 'swr';

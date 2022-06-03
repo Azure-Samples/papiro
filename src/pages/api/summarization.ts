@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { AzureKeyCredential, DocumentAnalysisClient } from '@azure/ai-form-recognizer';
 import { TextAnalyticsClient } from '@azure/ai-text-analytics';
 import { RestError } from '@azure/core-http';

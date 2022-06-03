@@ -1,5 +1,6 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 // From session official example https://github.com/vvo/iron-session/tree/main/examples/next.js-typescript
-
 import { IronSessionOptions } from 'iron-session';
 import { User } from './user';
 

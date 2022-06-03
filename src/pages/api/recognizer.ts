@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 // The SDK is not yet compatible with '2022-03-31-preview that why we have to overwrite some methods
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck

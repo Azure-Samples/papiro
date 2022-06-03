@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { useTranslation } from 'next-i18next';
 import Head from 'next/head';
 import Router from 'next/router';

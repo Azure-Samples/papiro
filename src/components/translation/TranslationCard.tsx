@@ -1,3 +1,5 @@
+// Copyright 2022 (c) Microsoft Corporation.
+// Licensed under the MIT license.
 import { useTranslation } from 'next-i18next';
 import { TranslationStatus } from '~/models';
 import { Loading } from '../layout';
